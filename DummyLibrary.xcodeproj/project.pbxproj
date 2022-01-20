@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		A02577EB279981E100A35063 /* DummyLibrary.docc in Sources */ = {isa = PBXBuildFile; fileRef = A02577EA279981E100A35063 /* DummyLibrary.docc */; };
 		A02577EC279981E100A35063 /* DummyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = A02577E9279981E100A35063 /* DummyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A02577F32799847200A35063 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02577F22799847200A35063 /* Dummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A02577E6279981E100A35063 /* DummyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DummyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02577E9279981E100A35063 /* DummyLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DummyLibrary.h; sourceTree = "<group>"; };
 		A02577EA279981E100A35063 /* DummyLibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DummyLibrary.docc; sourceTree = "<group>"; };
+		A02577F22799847200A35063 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				A02577E9279981E100A35063 /* DummyLibrary.h */,
+				A02577F22799847200A35063 /* Dummy.swift */,
 				A02577EA279981E100A35063 /* DummyLibrary.docc */,
 			);
 			path = DummyLibrary;
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02577F32799847200A35063 /* Dummy.swift in Sources */,
 				A02577EB279981E100A35063 /* DummyLibrary.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
